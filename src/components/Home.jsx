@@ -4,7 +4,7 @@ import ImagePreview from "./ImagePreview"
 
 const Home = () => {
   return (
-    <div className='w-full'>
+    <div className="">
       <ImageUpload />
       <ImagePreview />
     </div>
