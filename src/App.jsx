@@ -11,7 +11,7 @@ function App() {
 
         <Home />
 
-        <div className="text-sm text-gray-500">
+        <div className="text-sm text-gray-500 mt-6">
           Made by Kanishka                    
         </div>
       </div>
