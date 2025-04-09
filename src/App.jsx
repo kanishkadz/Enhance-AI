@@ -5,8 +5,9 @@ function App() {
   return (
     <>
       <div>
-        {/* Header */}
+        Header
         <Home />
+        Footer
       </div>
     </>
   )
