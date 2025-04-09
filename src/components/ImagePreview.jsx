@@ -7,6 +7,7 @@ const ImagePreview = () => {
       <div className="bg-white shadow-lg rounded-xl overflow-hidden">
         <h2 className="text-xl font-semibold text-center bg-gray-800 text-white py-2">Original Image</h2>
         <img src="" alt="" className="w-full h-full object-cover" />
+        <div className="flex items-center justify-center h-80 bg-gray-200">No Image Selected</div>
       </div>
 
       {/* Enhanced Image */}
