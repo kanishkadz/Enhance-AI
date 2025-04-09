@@ -1,10 +1,12 @@
-function App() {
+import Home from "./components/Home";
 
+
+function App() {
   return (
     <>
       <div>
         {/* Header */}
-        
+        <Home />
       </div>
     </>
   )
