@@ -2,7 +2,9 @@ import React from 'react'
 
 const ImageUpload = () => {
   return (
-    <div>ImageUpload</div>
+    <div className='bg-white shadow-lg rounded-2xl p-6 w-full max-w-2xl'>
+      ImageUpload
+    </div>
   )
 }
 
