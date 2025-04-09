@@ -5,7 +5,7 @@ function App() {
     <>
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 py-8 px-4">
         <div className="text-center mb-8">
-          <h1></h1>
+          <h1>EnhanceAI : AI Image Enhancer</h1>
           <p></p>
         </div>
 
