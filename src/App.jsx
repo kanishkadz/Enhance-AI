@@ -6,13 +6,13 @@ function App() {
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 py-8 px-4">
         <div className="text-center mb-8">
           <h1>EnhanceAI : AI Image Enhancer</h1>
-          <p>Made by Kanishka</p>
+          <p>Upload your Image and let AI enhance it in seconds !</p>
         </div>
 
         <Home />
 
         <div className="text-lg text-gray-500">
-          Upload your Image and let AI enhance it in seconds !          
+          Made by Kanishka                    
         </div>
       </div>
     </>
