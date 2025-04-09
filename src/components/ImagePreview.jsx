@@ -12,7 +12,7 @@ const ImagePreview = () => {
 
       {/* Enhanced Image */}
       <div className="bg-white shadow-lg rounded-xl overflow-hidden">
-        <h2 className="text-xl font-semibold text-center bg-gray-800 text-white py-2">Enhanced Image</h2>
+        <h2 className="text-xl font-semibold text-center bg-blue-800 text-white py-2">Enhanced Image</h2>
         <img src="" alt="" className="w-full h-full object-cover" />
       </div>
     </div>
