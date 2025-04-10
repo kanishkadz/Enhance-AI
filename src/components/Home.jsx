@@ -7,6 +7,9 @@ const Home = () => {
   const [enhancedImage, setEnhancedImage] = useState(null);
   const [loading, setLoading] = useState(false);
 
+  const UploadImageHandler = (file) => {
+    
+  }
 
 
   return (
