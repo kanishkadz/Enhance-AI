@@ -5,13 +5,14 @@ import ImagePreview from "./ImagePreview"
 const Home = () => {
   const [uploadImage, setUploadImage] = useState(null);
   const [enhancedImage, setEnhancedImage] = useState(null);
+  const [loading, setLoading] = useState(false);
 
 
 
   return (
     <>
-      <ImageUpload />
-      <ImagePreview />
+      <ImageUpload  />
+      <ImagePreview loading={loading} uploaded={uploadImage} enhanced={enhancedImage} />
     </>
   )
 }
