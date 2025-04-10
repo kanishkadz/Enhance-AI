@@ -7,9 +7,17 @@ const Home = () => {
   const [enhancedImage, setEnhancedImage] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const UploadImageHandler = (file) => {
+  const UploadImageHandler = async(file) => {
     setUploadImage(URL.createObjectURL(file));
     setLoading(true);
+
+    try {
+      const enhancedURL = await enhancedImageAPI(file);
+      setEnhancedImage(enhancedURL);
+      setLoading(false);      
+    } catch (error) {
+      
+    }
   };
 
 
