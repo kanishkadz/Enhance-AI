@@ -4,9 +4,9 @@ const ImageUpload = () => {
   const ShowImageHandler = (e) => {
     const file = e.target.files[0];
     if(file){
-      props.
+      props.UploadImageHandler
     }
-  }
+  };
 
 
   return (
