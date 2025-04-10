@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ImageUpload from "./ImageUpload"
 import ImagePreview from "./ImagePreview"
 
@@ -8,7 +8,7 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
 
   const UploadImageHandler = (file) => {
-    
+
   }
 
 
