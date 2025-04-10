@@ -9,6 +9,7 @@ const Home = () => {
 
   const UploadImageHandler = (file) => {
     setUploadImage(URL.createObjectURL(file));
+    setLoading(true);
   };
 
 
