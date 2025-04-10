@@ -16,7 +16,8 @@ const Home = () => {
       setEnhancedImage(enhancedURL);
       setLoading(false);      
     } catch (error) {
-      
+      console.log(error);
+      alert("Error while enhancing the image. Please try again later!")      
     }
   };
 
