@@ -17,7 +17,7 @@ const Home = () => {
       setLoading(false);      
     } catch (error) {
       console.log(error);
-      alert("Error while enhancing the image. Please try again later!")      
+      alert("Error while enhancing the image. Please try again later!");      
     }
   };
 
