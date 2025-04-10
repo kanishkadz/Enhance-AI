@@ -8,7 +8,7 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
 
   const UploadImageHandler = (file) => {
-
+    setUploadImage(URL.createObjectURL(file));
   };
 
 
