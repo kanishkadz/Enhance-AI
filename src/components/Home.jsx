@@ -9,12 +9,12 @@ const Home = () => {
 
   const UploadImageHandler = (file) => {
 
-  }
+  };
 
 
   return (
     <>
-      <ImageUpload  />
+      <ImageUpload UploadImageHandler={UploadImageHandler} />
       <ImagePreview loading={loading} uploaded={uploadImage} enhanced={enhancedImage} />
     </>
   )
