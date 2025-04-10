@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImageUpload = () => {
+const ImageUpload = (props) => {
   const ShowImageHandler = (e) => {
     const file = e.target.files[0];
     if(file){
