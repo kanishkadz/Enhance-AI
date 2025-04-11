@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 const API_KEY = "wxaf75gxd2u2zjs1m";
 const BASE_URL = "https://techhk.aoscdn.com/";
 
@@ -23,8 +25,9 @@ const uploadImage = async(file) => {
             "X-API-KEY": API_KEY,
         },
     });
-
-    return taskId;
+    
+    console.log(data);
+    //return taskId;
 };
 const fetchEnhancedImage = async(taskId) => {
     //fetch enhanced image 
