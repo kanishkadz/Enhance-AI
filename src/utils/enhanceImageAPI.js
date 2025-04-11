@@ -25,6 +25,9 @@ const uploadImage = async(file) => {
             "X-API-KEY": API_KEY,
         },
     });
+    if(!data?.data?.task_id){
+        throw new Error("Failed to upload new image");
+    }
     
     console.log(data);
     //return taskId;
