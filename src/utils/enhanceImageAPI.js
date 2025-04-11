@@ -3,8 +3,9 @@ const BASE_URL = "https://techhk.aoscdn.com/";
 
 export const enhancedImageAPI = async(file) => {
     try {
-        
-       
+        const taskId = await uploadImage(file);
+
+        const enhancedImageAPI = await fetchEnhancedImage(taskId);
     } catch (error) {
         console.log("Error enhancing image:", error.message);
         
@@ -15,6 +16,7 @@ export const enhancedImageAPI = async(file) => {
 const uploadImage = async(file) => {
     //code to upload image
     // "/api/tasks/visual/scale"  --post
+    return taskId;
 };
 const fetchEnhancedImage = async(taskId) => {
     //fetch enhanced image 
