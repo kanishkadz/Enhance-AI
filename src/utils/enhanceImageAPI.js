@@ -26,7 +26,7 @@ const uploadImage = async(file) => {
         },
     });
     if(!data?.data?.task_id){
-        throw new Error("Failed to upload new image");
+        throw new Error("Failed to upload new image! Task ID not found.");
     }
     
     console.log(data);
