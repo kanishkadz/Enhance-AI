@@ -31,6 +31,9 @@ const uploadImage = async(file) => {
     return data.data.task_id;
 };
 const fetchEnhancedImage = async(taskId) => {
-    //fetch enhanced image 
-    // "/api/tasks/visual/scale/{task_id}" --get
+    const {data} = await axios.get(`${BASE_URL}/api/tasks/visual/scale/${task_id}`,{
+        headers: {
+            "X-API-KEY": API_KEY,
+        },
+    }); 
 };
