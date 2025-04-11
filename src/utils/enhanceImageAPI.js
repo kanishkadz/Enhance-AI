@@ -17,7 +17,12 @@ const uploadImage = async(file) => {
     const formData = new FormData();
     formData.append("image_file", file);
 
-    await axios.post(`${BASE_URL}/api/tasks/visual/scale`, formData);
+    await axios.post(`${BASE_URL}/api/tasks/visual/scale`, formData, {
+        headers: {
+            "Content-type": "multipart/form-data",
+            "X-API-KEY": API_KEY,
+        },
+    });
 
     return taskId;
 };
